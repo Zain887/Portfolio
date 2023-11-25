@@ -1,0 +1,18 @@
+.logoAnimation{
+    fill: transparent;
+    stroke: #F9DF7B;
+    stroke-dasharray: 300;
+    animation: maker 5s 3s infinite;
+}
+@keyframes maker{
+    0%{
+        stroke: #F9DF7B;
+        fill: transparent;
+        stroke-dasharray: 300;
+    }
+    100%{
+        stroke: transparent;
+        stroke-dasharray: 0;
+        fill: #F9DF7B;
+    }
+}
