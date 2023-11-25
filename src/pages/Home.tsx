@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuBar from '../components/MenuBar';
 
 interface Props {
     // Define your component props here
